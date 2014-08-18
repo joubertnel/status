@@ -1,0 +1,28 @@
+{
+    "config": {
+        "statusOptions": {
+            "Dev": {
+                "color": "red"
+            }
+        }
+    },
+    
+    "data": [
+        {
+            "id": "root",
+            "name": "Launch",
+            "deps": [ 
+                "platforms"                     
+            ],
+            "status": "Dev"
+        },
+        
+        {
+            "id": "platforms",
+            "name": "Platforms",
+            "deps": [
+            ],
+            "status": "Dev"
+        }        
+    ]
+}
